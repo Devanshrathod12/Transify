@@ -1,15 +1,30 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, View , FlatList } from 'react-native'
 import React from 'react'
 
 const HomeScreen = () => {
+
+  const data = [
+      {
+        id:1,
+        name:"Devansh"
+      },
+      {
+        id:2,
+        name:"rathod"
+      }
+  ]
+
   return (
     <>
-    <View style={styles.container}>
-      <View style={styles.InnerContainers}/>
-      <View style={styles.InnerContainers}/>
-      <View style={styles.InnerContainers}/>
-    </View>
-   
+     <FlatList
+      data={data}
+      keyExtractor={(item) => item.id}
+      renderItem={({ item }) => (
+        <View>
+          <Text>{item.name}</Text>
+        </View>
+      )}
+    />
     </>
   )
 }
