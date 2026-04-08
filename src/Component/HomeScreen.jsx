@@ -12,6 +12,46 @@ const HomeScreen = () => {
         id:2,
         name:"rathod"
       }
+      {
+        id:1,
+        name:"Devansh"
+      },
+      {
+        id:2,
+        name:"rathod"
+      }
+      {
+        id:1,
+        name:"Devansh"
+      },
+      {
+        id:2,
+        name:"rathod"
+      }
+      {
+        id:1,
+        name:"Devansh"
+      },
+      {
+        id:2,
+        name:"rathod"
+      }
+      {
+        id:1,
+        name:"Devansh"
+      },
+      {
+        id:2,
+        name:"rathod"
+      }
+      {
+        id:1,
+        name:"Devansh"
+      },
+      {
+        id:2,
+        name:"rathod"
+      }
   ]
 
   return (
